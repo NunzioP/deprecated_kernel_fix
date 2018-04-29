@@ -52,7 +52,7 @@ include $(CLEAR_VARS)
 
 LOCAL_SHARED_LIBRARIES          := liblog libcutils
 LOCAL_C_INCLUDES                := $(common_includes)
-LOCAL_ADDITIONAL_DEPENDENCIES   := $(common_deps)
+LOCAL_ADDITIONAL_DEPENDENCIES   := INSTALLED_KERNEL_HEADERS
 LOCAL_SRC_FILES                 := qdMetaData.cpp qd_utils.cpp
 LOCAL_CFLAGS                    := $(common_flags) -Wno-sign-conversion
 LOCAL_CFLAGS                    += -DLOG_TAG=\"DisplayMetaData\"
