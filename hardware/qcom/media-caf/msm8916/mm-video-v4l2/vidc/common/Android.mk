@@ -17,7 +17,7 @@ libmm-vidc-def += -Werror
 libmm-vidc-def += -D_ANDROID_ICS_
 
 # Common Dependencies
-libmm-vidc-add-dep  := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+libmm-vidc-add-dep  := INSTALLED_KERNEL_HEADERS
 
 
 # ---------------------------------------------------------------------------------
